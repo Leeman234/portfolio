@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: rgb(112, 48, 48); 
+    color: #fff;
+    background: radial-gradient(rgb(200,48,48), rgb(112,48,48)) no-repeat;
+    font-size: 1vw;
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 1%;
+  
+}
+form input{
+    font-size: 2em;
+    padding: 0.5% 2%;
+    color: #FFFFFF;
+    margin: 5%;
+}
+.Exit{
+    background-color: red;
+}
+.profile{
+    background-color: rgb(112, 48, 48);
+}
+@media(max-width:1030px){
+    body{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width:770px){
+    body{
+        font-size: 2.3vw;
+    }
+}
+@media(max-width:480px){
+    body{
+        font-size: 3.5vw;
+    }
+}

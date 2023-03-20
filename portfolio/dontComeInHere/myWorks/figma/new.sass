@@ -1,0 +1,192 @@
+body 
+    margin: 0
+    padding: 0
+
+header
+    background-color: #0B1D26
+
+article 
+    background-color: #0B1D26
+
+section 
+    display: flex
+    color: #FFF
+
+aside 
+    padding: 10% 150px 0px
+
+.gradient
+    width: 100%
+    height: 155px
+    background-image: linear-gradient(rgba(11, 29, 38, 0),rgba(11, 29, 38, 1))
+    padding-top: 36%
+
+footer 
+    background-color: #0B1D26
+    display: flex
+    color: #ffff
+    width: 100%
+    justify-content: center
+    padding-top: 5%
+    padding-bottom: 2% 
+
+.mainScreen 
+    height: 100vh
+    color: #fff
+
+.backgroundSettings 
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+
+.background 
+    background-image: url(Bez_imeni-2.jpg)
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    z-index: 1
+    background-attachment: fixed
+
+.allInscriptions 
+    position: relative
+    z-index: 2
+
+.heading 
+    display: flex
+    padding-top: 3%
+    padding-left: 4%
+    margin: 0
+    height: 70px
+    flex-wrap: wrap
+
+.link 
+    color: #fff
+    text-decoration: none
+
+.logo 
+    padding-right: 100%
+.navigation 
+    display: flex
+
+.navigation :not(last-element)
+    margin-right: 80%
+
+.account 
+    display: flex
+    margin-left: 70%
+
+.account img 
+    margin-right: 10px
+
+.mainInscription 
+    padding: 12% 15% 0%
+
+.smallInscription 
+    display: flex
+    font-size: 135%
+    font-weight: 800
+    color: #FBD784
+    align-items: center
+
+.line 
+    height: 2px
+    width: 72px
+    background-color: #FBD784 
+
+.inscription 
+    padding: 0
+    padding-left: 2%
+    margin: 0
+
+.bigInscription 
+    font-size: 500%
+    font-weight: 600
+
+.content 
+    display: grid
+    padding: 10% 5% 0% 15%
+    grid-template-columns: repeat(1, 1)
+    grid-template-rows: repeat(4, 1)
+    height: 500px
+
+.numbering 
+    position: absolute
+    font-size: 248px
+    font-weight: 700px
+    opacity: 0.1
+    padding: 5% 10% 0%
+
+.numberingReverse 
+    position: absolute
+    font-size: 248px
+    font-weight: 700px
+    opacity: 0.1
+    padding: 4% 0% 0% 56%
+
+.titleBlock 
+    font-size: 18px
+    font-weight: 700px
+    padding-bottom: 0
+    margin: 0
+
+.firstColumn 
+    padding-right: 10%
+
+.secondColumn 
+    padding-right: 10%
+
+@media (orientation: portrait) 
+    .background 
+        background-position: 0
+        
+    
+    section display:grid
+        grid-template-columns: repeat(1,1)
+        grid-template-rows: repeat(2,1)
+        width: 100%
+    
+    .gradient 
+        padding-top: 115%
+    
+    .bigInscription 
+        font-size: 250%
+    
+    .smallInscription 
+        font-size: 100%
+
+    
+    .mainInscription 
+        padding: 40% 2%
+    
+    .content 
+        padding-left: 2%
+        width: 90vw
+        padding-right: 2%
+        height: 100vh
+        grid-column-start: 1
+        grid-column-end: 1
+        grid-row-start: 1
+        grid-row-end: 1
+    
+    .picture 
+        padding-left: 2%
+        width: 95vw
+        height: 95vh
+    
+    aside 
+        padding: 0
+    
+    .navigation :not(last-element) 
+        margin-right: 20%
+    
+    .account 
+        margin-left: 40%
+    
+    .logo 
+        padding-right: 5%
+    
+    .numberingReverse 
+        padding-left: 10%

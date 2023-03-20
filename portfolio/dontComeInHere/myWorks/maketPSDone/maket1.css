@@ -1,0 +1,618 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+}
+.logo{
+    margin-left: 150px;
+    margin-right: 580px;
+}
+.logoB{
+    margin-left: 150px;
+    margin-top: 110px;
+}
+nav{
+    background-color: black;
+    width: 1400px;
+    height: 70px;
+    margin-right: 150px;
+    margin: 0 auto;
+}
+.nav{
+    opacity: 0.69;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    margin-right: 46px;
+    text-decoration: none;
+}
+.greeting{
+    margin: 0 auto;
+    width: 1400px;
+    height: 640px;
+    background-image: url(pictures/mos.jpg);
+}
+.Modern{ 
+    width: 550px;
+    margin-left: 148px;
+    margin-top: 25px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: white;
+}
+.line{
+    height: 2px;
+    width: 64px;
+    background-color: white;
+    margin-left: 152px;
+    margin-top: 32px;
+}
+.Lorem1{
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 35px;
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+    color: white;
+}
+.btn-outline-light{
+    margin-top: 26px;
+    width: 135px;
+    margin-left: 152px;
+    border-radius: 0;
+    border: 2px solid white;
+}
+.btn-outline-light:hover{
+    background-color: white;
+}
+.formm{
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 190px;
+    width: 360px;
+    height: 360px;
+}
+.HeaderForm{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+.HeaderFormText{
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.FREE{
+    color: rgb(255, 139, 56);
+    margin: 0 5px;
+}
+input{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    border: 0;
+    margin: 0 37px 10px;
+}
+.inputName{
+    margin-top: 30px;
+}
+.inputEmail{
+    margin-top: 35px;
+}
+.inputPassword{
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+.btn-warning{
+    width: 100%;
+    height: 54px;
+    background-color: rgb(255, 155, 81);
+    border-radius: 0;
+    border: 0;
+}
+.SocialMedia{
+    margin: 0 auto;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, .15);
+    width: 1400px;
+    height: 105px;
+    background-color: white;
+}
+.heading{
+    margin-left: 151px;
+    margin-top: 19px;
+    margin-bottom: 0;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+.Lorem2{
+    margin-left: 152px;
+    width: 400px;
+    margin-top: 4px;
+    font-family: 'Open Sans';
+    font-size: 13.7px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.MediaIcons{
+    margin-top: 30px;
+    margin-left: 48px;
+}
+.TabsWith{
+    background-color: rgb(245, 245, 245);
+    width: 1400px;
+    height: 595px;
+    margin: 0 auto;
+}
+.BtnTabsWith{
+    width: 110px;
+    height: 110px;
+    border-radius: 3px;
+    margin: 1px;
+    background-color: rgb(51, 51, 51);
+}
+.buttonTab{
+    margin: 148px 100px 115px 143px;
+}
+.BtnTabsWith:hover{
+    background-color: rgb(255, 139, 56);
+    border: 0;
+}
+.BtnTabsWith:active{
+    background-color: rgba(255, 139, 56, .8);
+}
+.Tabs{
+    width: 500px;
+    margin-top: 130px;
+}
+.HeadingTabs{
+    margin: 23px 0 48px 0;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: black;
+    }
+.dis{
+    font-family: 'Open Sans';
+    font-size: 13.5px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin-bottom: 15px;
+}
+.bibendum{
+    letter-spacing: 0.1px;
+    font-size: 14.5px;
+}
+.btnDowloand{
+    margin-top: 30px;
+    width: 120px;
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(255, 139, 56);
+}
+.btnDowloand:active{
+    background-color: rgba(255, 139, 56, .7);
+}
+.ImagCity{
+    margin-top: 172px;
+    margin-left: 77px;
+}
+.SubList{
+    background-color: white;
+    width: 1400px;
+    height: 596px;
+    margin: 0 auto;
+}
+.SumImg{
+    width: 453px;
+    height: 303px;
+    margin: 126px 0 170px 152px;
+    box-shadow: -5px 6px 7px rgba(0, 0, 0, .38), 5px 5px 7px rgba(0, 0, 0, .38);
+}
+.SumImg img{
+    width: 100%;
+    height: 100%;
+}
+.SubListText{
+    width: 640px;
+    margin-top: 95px;
+}
+.SubHeading{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    margin: 0 0px 0px 193px;
+}
+.lineSub{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 16px 0 0 195px;
+}
+.justo{
+    font-family: 'Open Sans';
+    width: 450px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin: 26px 0 33px 194px;
+}
+.cloud{
+    width: 40px;
+    height: 40px;
+    margin: 12px 0 0 193px;
+}
+.SubText{
+    width: 1000px;
+    margin: 0px;
+}
+.Title{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121;
+    margin: 9px 0 0 30px;
+}
+.SubParagraph{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin: 6px 0 26px 31px;
+}
+.Standard{
+    background-color: rgb(245, 245, 245);
+    width: 1400px;
+    height: 524px;
+    margin: 0 auto;
+}
+.HeadigStandard{
+    margin: 95px 0 0 153px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+}
+.lineStabdard{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 17px 0 25px 151px;
+}
+.StabdardParagraph{
+    width: 480px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin-left: 152px;
+}
+.StandardImg{
+    box-shadow: -5px 6px 7px rgba(0, 0, 0, .38), 5px 5px 7px rgba(0, 0, 0, .38);
+    margin: 91px 0px 0px 190px;
+    width: 453px;
+    height: 304px;
+}
+.StandardImg img{
+    width: 100%;
+    height: 100%;
+}
+.AWESOME{
+    background-color: white;
+    width: 1400px;
+    height: 592px;
+    margin: 0 auto;
+}
+.Awesomeheader{
+    height: 183px;
+}
+.HeadingAwesome{
+    margin: 101px 0 0 2px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+.paragraphAwesome{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.AwesomeLine{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 20px auto 26px auto;
+}
+.AwesomeImg{
+    width: 70px;
+    height: 70px;
+}
+.AwesomeSections{
+    margin: 108px 0px 0 128px;
+}
+.AwesomeSection{
+    width: 380px;
+}
+.picturesWell{
+    margin-left: 3px;
+}
+.picturesEasy{
+    margin-left: 7px;
+}
+.headingSectionAwesome{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin: 26px 0 0 2px;
+}
+.ParagrafAwesome{
+    width: 360px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin: 20px 0 0 10px;
+}
+.PRICING{
+    background-color: rgb(245, 245, 245);
+    width: 1400px;
+    height: 885px;
+    margin: 0 auto;
+}
+.headeringPricing{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    margin: 100px 0 0 1px;
+}
+.linePricing{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 22px auto 25px auto;
+}
+.paragraphPricing{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.Pricing{
+    font-size: 37px;
+    font-weight: 400;
+}
+.PricingJpg{
+    margin-top: 75px;
+}
+.Pricing2{
+    margin: 0 40px 0px;
+}
+.Pricing1_3{
+    margin-top: 35px;
+}
+.CUSTOMERS{
+    background-color: white;
+    width: 1400px;
+    height: 590px;
+    margin: 0 auto;
+}
+.headingCUSTOMERS{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    margin: 100px 0 0 3px;
+}
+.lineCUSTOMERS{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 20px auto 25px auto;
+}
+.paragraphCUSTOMERS{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.messedgeBac{
+    margin-bottom: 10px;
+    width: 270px;
+    height: 147px;
+    background-image: url(pictures/MasBac.png);
+}
+.messedge{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #86878b;
+    padding: 15px 15px;
+}
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.name{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+    margin: 13px 0 0 2px;
+}
+.role{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #86878b;
+    margin: 5px 0 0 0;
+}
+.oneMas{
+    margin: 35px 123px 0 173px;
+}
+.twoMas{
+    margin-top: 35px;
+}
+.threeMas{
+    margin: 35px 0 0 122px;
+}
+.STYLISH{
+    background-image: url(pictures/moos.jpg) ;
+    width: 1400px;
+    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.headerStylish{
+    margin-top: 67px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+.lineStylish{
+    width: 64px;
+    height: 2px;
+    background-color: white;
+    margin: 23px auto 28px auto; 
+}
+.paragraphStylish{
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+.btnStylish{
+    color: white;
+    margin-top: 18px;
+    width: 135px;
+    border: 2px solid white;
+    border-radius: 0;
+}
+.ContactUs{
+    background-color: white;
+    width: 1400px;
+    height: 612px;
+    margin: 0 auto;
+    text-align: center;
+}
+.CONTACT{
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+.lineContactUs{
+    width: 64px;
+    height: 2px;
+    background-color: rgb(255, 139, 56);
+    margin: 21px auto 26px auto;
+}
+.PoragraphContactUs{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+.ContactUsName{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    margin: 70px 0 0 140px;
+    width: 525px;
+}
+.ContactUsEmail{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    margin: 35px 0 0 140px;
+    width: 525px;
+}
+.ContactUsSubject{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    margin: 35px 0 0 140px;
+    width: 525px;
+}
+.ContactUsMessage{
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    width: 525px;
+    height: 150px;
+    border: 0;
+    margin: 65px 0 0 70px;
+}
+.btnContact{
+    margin-top: 40px;
+    background-color: rgb(255, 139, 56);
+    color: white;
+    width: 145px;
+    height: 45px;
+}
+.btnContact:hover{
+    background-color: rgb(205, 139, 56);
+    color: white;
+
+}
+footer{
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+}
+footer img{
+    margin-top: 20px;
+}
+.fotter{
+    opacity: 0.5;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 12px;
+}

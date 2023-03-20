@@ -1,0 +1,343 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    width: 100vw;
+}
+.copyPng{
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 35%;
+}
+.b-show {
+    display: block;
+    animation: showBlock 2s linear forwards;
+}
+@keyframes showBlock {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+button:active, button:focus,input:active,input:focus,textarea:active,textarea:focus,select:active,select:focus{
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+header{
+    margin: 3vw 17vw 0 7.5vw;
+}
+header div{
+    width: 26vw;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header div a{
+    color: black;
+    font-family: 'Neutral Face';
+}
+header img{
+    width: 129px;
+    height: 44px;
+}
+header div img{
+    width: 1.6vw;
+    height:1.6vw;
+}
+.kontacts{
+    max-width: 65vw;
+    margin: 6vw auto 3vw auto;
+    font-size: 0.8vw;
+}
+.kontacts p{
+    cursor: default;
+    font-size: 1.56em;
+}
+.kontacts h1{
+    cursor: default;
+    font-family: 'Neutral Face';
+    font-size: 2.125em;
+}
+.kontacts h2{
+    cursor: default;
+    font-family: 'Neutral Face';
+    font-size: 1.91em;
+}
+.lineContact{
+    opacity: 0.5;
+    margin: 0 auto;
+    background-color: black;
+    max-width: 65vw;
+    min-height: 2px;
+}
+.anchor{
+    margin: 9.6vw 0 0 17vw;
+}
+.anchor a{
+    width: 50%;
+    margin-right: 3%;
+    opacity: 0.6;
+}
+.anchor a:hover{
+    opacity: 1;
+}
+.anchor a img{
+    width: 100%;
+}
+.discussion{
+    max-width: 65vw;
+    margin: 3vw auto 3vw auto;
+    font-size: 0.8vw;
+}
+.discussionText{
+    width: 50%;
+}
+.discussionText h1{
+    cursor: default;
+    font-family: 'Neutral Face';
+    font-size: 2.125em;
+}
+.discussionText p{
+    cursor: default;
+    font-size: 1.56em;
+}
+.appeal{
+    width: 50%;
+    height: 100%;
+}
+.appeal input,.appeal textarea,.appeal select{
+    border: 0;
+    width: 100%;
+    height: 10vh;
+    border-radius: 3%/20%;
+    background-color: #f4f4f4;
+    margin: 2.5% 0 2.5% 0;
+    padding-left: 5%;
+}
+.appeal textarea{
+    padding-top: 2%;
+    resize: none;
+}
+.checkboxLine{
+    font-size: 0.8vw;
+    margin: 2% 2% 4.5% 0;
+    padding: 0 0 0 5%;
+}
+.checkbox{
+    max-width: 1vw;
+    max-height: 1vw;
+}
+.checkboxLine div{
+    width: 100%;
+    height: 100%;
+}
+.checkboxLine div p{
+    margin: 2% 0 0 2.5%;
+    width: 28%;
+}
+.checkboxLine div a{
+    margin: 2% 0 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+.appeal button{
+    font-family: 'Neutral Face';
+    font-size: 1.4em;
+    border: solid 1px black;
+    background-color: white;
+    height: 8vh;
+    opacity: 0.6;
+}
+.appeal button{
+    opacity: 1;
+    cursor: pointer;
+}
+.information{
+    max-width: 65vw;
+    margin: 3vw auto 3vw auto;
+    font-size: 0.8vw;
+}
+.information p{
+    cursor: default;
+    font-size: 1.56em;
+}
+.information h1{
+    cursor: default;
+    font-family: 'Neutral Face';
+    font-size: 2.125em;
+}
+.addressAndRequisites p{
+    width: 63%;
+}
+.addressAndRequisites h2{
+    margin-top: 0.4%;
+    cursor: default;
+    font-family: 'Neutral Face';
+    font-size: 1.91em;
+    width: 18.05%;
+}
+#Bank{
+    border: 0;
+    max-width: 120%;
+    /*appearance: none;
+    overflow: hidden;
+    background: url('lup.png') no-repeat right; */
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #073b4c;
+}
+@media (max-width:700px) {
+    .footer{
+        width: 100%;
+    }
+}
+.connection{
+    display:flex;
+    align-items: center;
+    color: white;
+    /*font-weight: 700;*/
+    font-size: 1.1vw;
+    width: 100%;
+    margin: 8% 8%;
+
+}
+.connection1{
+    display:flex;
+    align-items: center;
+    color: white;
+    /*font-weight: 700;*/
+    opacity: 70%;
+    font-size: 1.1vw;
+    width: 100%;
+    margin: 8% 8%;
+
+}
+.connection2{
+    display:flex;
+    align-items: center;
+    color: white;
+    /*font-weight: 700;*/
+    font-size: 1.1vw;
+    width: 100%;
+    margin: 5.3% 8%;
+
+}
+.connection3{
+    display:flex;
+    opacity:70%;
+    align-items: center;
+    color: white;
+    /*font-weight: 700;*/
+    font-size: 1.1vw;
+    width: 100%;
+    margin: 5.3% 8%;
+
+}
+.soch{
+    position: relative;
+    width: 100%;
+    left: -4%;
+}
+.soch div img{
+    width: 2.5%;
+    height: 2.5%;
+    margin: 0 0.5% 0 0.5%;
+    opacity: 0.5;
+}
+.soch div img:hover{
+    opacity: 1;
+}
+.copyright{
+    color: white;
+    opacity:70%;
+    margin-top: -2.5%;
+    padding-bottom: 1%;
+    font-size: 1vw;
+}
+.logos {
+    margin: 3% 5%;
+    width: calc(100%/3);
+}
+.logos img{
+    position: relative;
+    left: 8%;
+        top: 9%;
+    width: 38%;
+    margin: 5% 0 0;
+}
+.logos2 {
+    width: calc(100%/3);
+    background: url(lineEmail.png) no-repeat center 21vw;
+    background-size: 5vw 0.5vw
+}
+.logos2 a:hover {
+    text-decoration: none;
+    background-size: 20.8vw 20.8vw;
+    color: #073b4c;
+    opacity: 1;
+}
+.logos2 a {
+    display: table;
+    width: 20.8vw;
+    height: 20.8vw;
+    margin: 20% auto;
+    background: url(circle.png) no-repeat center 0;
+    background-size: 5.5vw 5.5vw;
+    font: 1.5vw/21vw 'HelveticaNeue_Light', Arial;
+    letter-spacing: 0.05em;
+    color: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.logos2 a:hover span {
+    -webkit-transform: translateY(2.9vw);
+    transform: translateY(2.9vw);
+}
+.logos2 span {
+    display: block;
+    position: absolute;
+    top: 1.8vw;
+    left: 50%;
+    margin-left: -1.5vw;
+    background: url(letter.png) no-repeat center 0;
+    background-size: 2.982vw 2.08vw;
+    width: 2.982vw;
+    height: 2.08vw;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.logos3 {
+    margin: 3% 3% 3% 11%;
+    padding-left: 11%;
+    width: calc(100%/3);
+}
+.logos3 img{
+    position: relative;
+    width: 12%;
+    left: 5%;
+    top: 2%;
+    opacity:70%;
+    margin: 0 1.5% 0 1.5%;
+}
+.logos3 img:hover{
+    opacity:100%;
+}

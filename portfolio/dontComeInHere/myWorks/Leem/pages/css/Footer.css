@@ -1,0 +1,41 @@
+footer {
+    max-width: 85%;
+    font-size: 0.9vw;
+    margin: 5% 5% 0 5%;
+}
+.creator {
+    margin-right: 12%;
+}
+.button5 {
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 0 1%;
+}
+.button5:before {
+    padding-right: 0.3vw;
+}
+.button5[data-twitter]:before {content: url(http://favicon.yandex.net/favicon/twitter.com);}
+.button5[data-vk]:before {content: url(http://favicon.yandex.net/favicon/vk.com);}
+.button5[data-facebook]:before {content: url(http://favicon.yandex.net/favicon/facebook.com);}
+.button5:active {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1));
+    box-shadow:
+     inset rgba(0,0,0,.8) 0 1px 2px,
+     inset rgba(0,0,0,.05) 0 -1px 0,
+     #fff 0 1px 1px;
+}
+@media(max-width:1030px){
+    footer {
+        font-size: 1.7vw;
+    }
+}
+@media(max-width:770px){
+    footer {
+        font-size: 2.7vw;
+    }
+}
+@media(max-width:480px){
+    footer {
+        font-size: 3.5vw;
+    }
+}
