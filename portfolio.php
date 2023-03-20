@@ -17,7 +17,7 @@
     <body>
         <header class="text-center"> 
             <h1>Портфолио</h1> 
-            <h2>Иванов Леонид</h2>
+            <h2>Иванов Леонид Николаевич</h2>
             <nav class="d-flex flex-wrap justify-content-evenly m-5 pb-5 nav">
                     <a href="#aboutMe">Обо мне</a>
                     <a href="#skills">Мои навыки</a>
